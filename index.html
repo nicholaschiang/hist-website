@@ -1,235 +1,204 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>The Internet: A Brief History</title>
 
-    <title>Neaty HTML Web Template</title>
-<!--
-Neaty HTML Template
-http://www.templatemo.com/tm-501-neaty
--->
-    <!-- load stylesheets -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">  <!-- Google web font "Open Sans" -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">                                      <!-- Bootstrap style -->
-    <link rel="stylesheet" href="css/magnific-popup.css">                                <!-- Magnific pop up style, http://dimsemenov.com/plugins/magnific-popup/ -->
-    <link rel="stylesheet" href="css/templatemo-style.css">                                   <!-- Templatemo style -->
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
+
+    <!-- main css -->
+    <link href="css/style.css" rel="stylesheet">
+
+
+    <!-- modernizr -->
+    <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+    <script src="js/modernizr.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-          <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
-    <body>        
-        <div class="container">
-            <div class="row">
-                <div class="tm-left-right-container">
-                    <!-- Left column: logo and menu -->
-                    <div class="tm-blue-bg tm-left-column">                        
-                        <div class="tm-logo-div text-xs-center">
-                            <img src="img/tm-neaty-logo.png" alt="Logo">
-                            <h1 class="tm-site-name">Neaty</h1>
-                        </div>
-                        <nav class="tm-main-nav">
-                            <ul class="tm-main-nav-ul">
-                                <li class="tm-nav-item">
-                                    <a href="#welcome" class="tm-nav-item-link">Welcome</a>
-                                </li>
-                                <li class="tm-nav-item">
-                                    <a href="#about" class="tm-nav-item-link">About Us</a>
-                                </li>
-                                <li class="tm-nav-item">
-                                    <a href="#galleryone" class="tm-nav-item-link">Gallery One</a>
-                                </li>
-                                <li class="tm-nav-item">
-                                    <a href="#secondgallery" class="tm-nav-item-link">Second Gallery</a>
-                                </li>
-                                <li class="tm-nav-item">
-                                    <a href="#thirdgallery" class="tm-nav-item-link">Third Gallery</a>
-                                </li>
-                                <li class="tm-nav-item">
-                                    <a href="#contact" class="tm-nav-item-link">Contact Us</a>
-                                </li>
-                            </ul>
-                        </nav>                                         
-                    </div> <!-- Left column: logo and menu -->
-                    
-                    <!-- Right column: content -->
-                    <div class="tm-right-column">
-                        <figure>
-                            <img src="img/neaty-01.jpg" alt="Header image" class="img-fluid">    
-                        </figure>
 
-                        <div class="tm-content-div">
-                            <!-- Welcome section -->
-                            <section id="welcome" class="tm-section">
-                                <header>
-                                    <h2 class="tm-blue-text tm-welcome-title tm-margin-b-45">Welcome to Neaty Design</h2>
-                                </header>
-                                <p>Neaty is simple and clean design HTML CSS template for any kind of website. Feel free to use this layout. Please tell your friends about templatemo website. Thank you. Suspendisse imperdiet, felis eu hendrerit pretium, sapien mauris blandit arcu, et accumsan neque est ut erat. Vivamus eget tellus euismod, interdum nibh at, eleifend justo. Quisque placerat ante in ex tempor, ultrices bibendum nunc finibus. Etiam luctus nec eros vel pulvinar.</p>
-                            </section>
-                            <!-- About section -->
-                            <section id="about" class="tm-section">
-                                <div class="row">                                                                
-                                    <div class="col-lg-8 col-md-7 col-sm-12 col-xs-12 push-lg-4 push-md-5">
-                                        <header>
-                                            <h2 class="tm-blue-text tm-section-title tm-margin-b-45">About the team</h2>
-                                        </header>
-                                        <p>Sed turpis nunc, laoreet sit amet fermentum sed, euismod ac justo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-                                        <p>Donec ut lectus semper, sollicitudin risus blandit, mattis felis. Nam non malesuada odio. Vestibulum vaius, arcu eget rutrum consequat, arcu lacus imperdiet arcu, id pulvinar arcu erat vel magna.</p>
-                                        <p>Ut commodo malesuada eros, quis consequat ante tincidunt ut. Suspendisse malesuada augue vitae nisi sollicitudin placerat.</p>
-                                        <a href="#" class="tm-button tm-button-wide">Read More</a>  
-                                    </div>
+<body>
 
-                                    <div class="col-lg-4 col-md-5 col-sm-12 col-xs-12 pull-lg-8 pull-md-7 tm-about-img-container">
-                                        <img src="img/neaty-02.jpg" alt="Image" class="img-fluid">    
-                                    </div>  
-                                </div>                            
-                            </section>  
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="pre-container">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- end Preloader -->
 
-                            <!-- Gallery One section -->     
-                            <section id="galleryone" class="tm-section">
-                                <header><h2 class="tm-blue-text tm-section-title tm-margin-b-30">Gallery One</h2></header>
-                                <div class="tm-gallery-container tm-gallery-1">
-                                    <div class="tm-img-container tm-img-container-1">
-                                        <a href="img/neaty-03.jpg"><img src="img/neaty-03.jpg" alt="Image" class="img-fluid tm-img-tn"></a>    
-                                    </div>
-                                    <div class="tm-img-container tm-img-container-1">
-                                        <a href="img/neaty-04.jpg"><img src="img/neaty-04.jpg" alt="Image" class="img-fluid tm-img-tn"></a>    
-                                    </div>
-                                    <div class="tm-img-container tm-img-container-1">
-                                        <a href="img/neaty-05.jpg"><img src="img/neaty-05.jpg" alt="Image" class="img-fluid tm-img-tn"></a>    
-                                    </div>
-                                    <div class="tm-img-container tm-img-container-1">
-                                        <a href="img/neaty-06.jpg"><img src="img/neaty-06.jpg" alt="Image" class="img-fluid tm-img-tn"></a>    
-                                    </div>
-                                    <div class="tm-img-container tm-img-container-1">
-                                        <a href="img/neaty-07.jpg"><img src="img/neaty-07.jpg" alt="Image" class="img-fluid tm-img-tn"></a>    
-                                    </div>                                    
-                                </div>
-                            </section>
+    <div class="container-fluid">
+        <!-- box header -->
+        <header class="box-header">
+            <div class="box-logo">
+                <!--
+                   -<a href="index.html"><img src="img/logo.png" width="80" alt="Logo"></a>
+		   -->
+                <a href="index.html">
+                    <h3>The Internet<span>.</span></h3>
+                </a>
+            </div>
+            <!-- box-nav -->
+            <a class="box-primary-nav-trigger" href="#0">
+                <span class="box-menu-text">Menu</span><span class="box-menu-icon"></span>
+            </a>
+            <!-- box-primary-nav-trigger -->
+        </header>
+        <!-- end box header -->
 
-                            <!-- Second Gallery section -->     
-                            <section id="secondgallery" class="tm-section">
-                                <header><h2 class="tm-blue-text tm-section-title tm-margin-b-30">Second Gallery</h2></header>
-                                <div class="tm-gallery-container tm-gallery-2">
-                                    <div class="tm-img-container tm-img-container-2">
-                                        <a href="img/neaty-08.jpg"><img src="img/neaty-08.jpg" alt="Image" class="img-fluid tm-img-tn"></a>    
-                                    </div>
-                                    <div class="tm-img-container tm-img-container-2">
-                                        <a href="img/neaty-09.jpg"><img src="img/neaty-09.jpg" alt="Image" class="img-fluid tm-img-tn"></a>    
-                                    </div>
-                                    <div class="tm-img-container tm-img-container-2">
-                                        <a href="img/neaty-10.jpg"><img src="img/neaty-10.jpg" alt="Image" class="img-fluid tm-img-tn"></a>    
-                                    </div>                                    
-                                </div>
-                            </section>
+        <!-- nav -->
+        <nav>
+            <ul class="box-primary-nav">
+                <li class="box-label">Brief History</li>
 
-                            <!-- Third Gallery section -->     
-                            <section id="thirdgallery" class="tm-section">
-                                <header><h2 class="tm-blue-text tm-section-title tm-margin-b-30">Third Gallery</h2></header>
-                                <div class="tm-gallery-container tm-gallery-3">
-                                    <div class="tm-img-container tm-img-container-3">
-                                        <a href="img/neaty-11.jpg"><img src="img/neaty-11.jpg" alt="Image" class="img-fluid tm-img-tn"></a>    
-                                    </div>
-                                    <div class="tm-img-container tm-img-container-3">
-                                        <a href="img/neaty-12.jpg"><img src="img/neaty-12.jpg" alt="Image" class="img-fluid tm-img-tn"></a>
-                                    </div>
-                                    <div class="tm-img-container tm-img-container-3">
-                                        <a href="img/neaty-13.jpg"><img src="img/neaty-13.jpg" alt="Image" class="img-fluid tm-img-tn"></a>
-                                    </div>
-                                    <div class="tm-img-container tm-img-container-3">
-                                        <a href="img/neaty-14.jpg"><img src="img/neaty-14.jpg" alt="Image" class="img-fluid tm-img-tn"></a>
-                                    </div>                                    
-                                </div>
-                            </section>
+                <li><a href="resume.pdf">Intro</a> <i class="ion-ios-circle-filled color"></i> </li>
+                <li><a href="#creators">Creators</a></li>
+                <li><a href="#evolution">Evolution</a></li>
+                <li><a href="#">Curroption</a></li>
 
-                            <!-- Contact Us section -->
-                            <section id="contact" class="tm-section">
-                                <header><h2 class="tm-blue-text tm-section-title tm-margin-b-30">Contact Us</h2></header>
+                <li class="box-label">Read More</li>
 
-                                <div class="row">
-                                    <div class="col-lg-6">
-                                        <form action="#contact" method="post" class="contact-form">
-                                            <div class="form-group">
-                                                <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name"  required/>
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email"  required/>
-                                            </div>
-                                            <div class="form-group">
-                                                <textarea id="contact_message" name="contact_message" class="form-control" rows="9" placeholder="Message" required></textarea>
-                                            </div>                                            
-                                            <button type="submit" class="float-right tm-button">Send</button>
-                                        </form>    
-                                    </div>
-                                    
-                                    <div class="col-lg-6 tm-contact-right">
-                                        <p>
-                                        Nullam vivera fermentum purus id blandit. Phasellus lacus mi, porta vel sodales nec, faucibus non eros. Nulla at quam vel risus laoreet tincidunt in in sem.    
-                                        </p>
-                                        <address>
-                                            11/22 Etiam mauris erat,<br>
-                                            Vestibulum eu augue nec, 10220<br>
-                                            Nam consequat
-                                        </address>
-                                    </div>
-                                </div>
-                                
-                            </section>
-                            <footer>
-                                <p class="tm-copyright-p">Copyright &copy; <span class="tm-current-year">2017</span> Your Company 
-                                
-                                | Designed by <a href="http://www.templatemo.com" target="_parent">templatemo</a></p>
-                            </footer>
-                        </div>  
-                        
-                    </div> <!-- Right column: content -->
+                <li class="box-social"><a href="#0">
+                        <ion-icon name="logo-facebook"></ion-icon>
+                    </a></li>
+                <li class="box-social"><a href="#0">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a></li>
+                <!--
+                   -<li class="box-social"><a href="#0">
+                   -        <ion-icon name="logo-twitter"></ion-icon>
+                   -    </a></li>
+		   -->
+                <li class="box-social"><a href="https://github.com/nicholaschiang/">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a></li>
+                <li class="box-social"><a href="https://scholar.google.com/citations?user=BNFc5p8AAAAJ">
+                        <ion-icon name="school"></ion-icon>
+                    </a></li>
+            </ul>
+        </nav>
+        <!-- end nav -->
+
+        <!-- box-intro -->
+        <section class="box-intro">
+            <div class="table-cell">
+                <h1 class="box-headline letters rotate-2">
+                    <span class="box-words-wrapper">
+                        <b class="is-visible">Information.</b>
+                        <b>Communication.</b>
+                        <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Power.</b>
+                    </span>
+                </h1>
+                <h5>a brief history of the world wide web</h5>
+            </div>
+
+            <div class="mouse">
+                <div class="scroll"></div>
+            </div>
+        </section>
+        <!-- end box-intro -->
+    </div>
+
+    <!-- Creation of the Internet -->
+    <!-- Discuss major events leading up to the creation of the internet and why
+	    it was even created in the first place. Touch on important people
+	    who contributed and what it was originally used for. -->
+    <div id="creators" class="image-timeline">
+        <div class="header">
+            <b class="title letters">Creators of the <b class="color">Net</b>.</b>
+            <b class="subtitle letters"><br>How the <b class="color">world wide web</b> came to be.</b>
+        </div>
+        <div id="cards">
+            <div class="right-image-card" id="vint-serf">
+                <img width="100%" src="/img/vint-serf.jpeg">
+                <div class="text-box">
+                    <h5>Vint Serf</h5>
+                    <p>Eos dolores autem optio. Qui officia non sed quas
+                        quibusdam quia maxime molestias. Itaque aut quo dolor
+                        minima dolor delectus consequatur. Enim voluptatem omnis
+                        natus aut a. Magni ipsam beatae odit fugit sint et
+                        distinctio facilis.</p>
                 </div>
-            </div> <!-- row -->
-        </div> <!-- container -->
-                
-        <!-- load JS files -->
-        <script src="js/jquery-1.11.3.min.js"></script>             <!-- jQuery (https://jquery.com/download/) -->
-        <script src="js/jquery.magnific-popup.min.js"></script>     <!-- Magnific pop-up (http://dimsemenov.com/plugins/magnific-popup/) -->
-        <script src="js/jquery.singlePageNav.min.js"></script>      <!-- Single Page Nav (https://github.com/ChrisWojcik/single-page-nav) -->
-        <script>     
-       
-            $(document).ready(function(){
+            </div>
+            <div class="left-image-card" id="bob-kahn">
+                <img width="100%" src="/img/bob-kahn.jpeg">
+                <div class="text-box">
+                    <h5>Bob Kahn</h5>
+                    <p>Eos dolores autem optio. Qui officia non sed quas
+                        quibusdam quia maxime molestias. Itaque aut quo dolor
+                        minima dolor delectus consequatur. Enim voluptatem omnis
+                        natus aut a. Magni ipsam beatae odit fugit sint et
+                        distinctio facilis.</p>
+                </div>
+            </div>
+            <div class="right-image-card" id="tim-berner">
+                <img width="100%" src="/img/tim-berners-lee.jpeg">
+                <div class="text-box">
+                    <h5><b>Tim Berners Lee</b></h5>
+                    <p>Eos dolores autem optio. Qui officia non sed quas
+                        quibusdam quia maxime molestias. Itaque aut quo dolor
+                        minima dolor delectus consequatur. Enim voluptatem omnis
+                        natus aut a. Magni ipsam beatae odit fugit sint et
+                        distinctio facilis.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                // Single page nav
-                $('.tm-main-nav').singlePageNav({
-                    'currentClass' : "active",
-                    offset : 20
-                });
+    <!-- Evolution of the Internet -->
+    <!-- Discuss how the internet is used today, government regulations that
+	    have developed, and the progression that it has had since it's
+	    creation in the 1960s. -->
+    <div id="evolution" class="sticky-paragraph">
+        <div class="header">
+            <b class="title letters">Evolution<b class="color">.</b></b>
+            <b class="subtitle letters"><br>How we came to use the <b class="color">internet</b> everyday.</b>
+        </div>
+    </div>
 
-                // Magnific pop up
-                $('.tm-gallery-1').magnificPopup({
-                  delegate: 'a', // child items selector, by clicking on it popup will open
-                  type: 'image',
-                  gallery: {enabled:true}
-                  // other options
-                }); 
+    <!-- footer -->
+    <footer>
+        <div class="container-fluid">
+            <p class="copyright">© Nicholas Chiang 2019</p>
+        </div>
+    </footer>
+    <!-- end footer -->
 
-                $('.tm-gallery-2').magnificPopup({
-                  delegate: 'a', // child items selector, by clicking on it popup will open
-                  type: 'image',
-                  gallery: {enabled:true}
-                  // other options
-                }); 
+    <!-- back to top -->
+    <a href="#0" class="cd-top">
+        <ion-icon name="arrow-up"></ion-icon>
+    </a>
+    <!-- end back to top -->
 
-                $('.tm-gallery-3').magnificPopup({
-                  delegate: 'a', // child items selector, by clicking on it popup will open
-                  type: 'image',
-                  gallery: {enabled:true}
-                  // other options
-                }); 
 
-                $('.tm-current-year').text(new Date().getFullYear());                
-            });
-        </script>             
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-2.1.1.js"></script>
+    <!--  plugins -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/animated-headline.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+
+
+    <!--  custom script -->
+    <script src="js/custom.js"></script>
+
 </body>
+
 </html>
