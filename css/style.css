@@ -77,6 +77,9 @@ a {
 
 .color {
     color: #0395DE; /* Original: #0395DE; /* Original: #ffbf00 */; */
+    /*
+     *font-size: 11px;
+     */
 }
 
 
@@ -131,18 +134,21 @@ h5 {
     display: block;
 }
 
-.left-image-card {
+.image-card {
     width: 60% !important;
     margin: 50px;
     position: relative;
-    float: left;
 }
 
-.left-image-card img {
+.image-card img {
     border-radius: 5px;
 }
 
-.left-image-card .text-box {
+.image-card b {
+    color: #0395DE; /* Original: #0395DE; /* Original: #ffbf00 */; */
+}
+
+.image-card .text-box {
     border-radius: 5px;
     width: 500px;
     height: auto;
@@ -150,33 +156,13 @@ h5 {
     background: #fff;
     padding-left: 20px;
     padding-left: 20px;
-}
-
-.right-image-card {
-    width: 60% !important;
-    margin: 50px;
-    position: relative;
-    float: right;
-}
-
-.right-image-card img {
-    border-radius: 10px;
-}
-
-.right-image-card .text-box {
-    border-radius: 5px;
-    width: 500px;
-    height: auto;
-    position: absolute;
-    background: #fff;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 #bob-kahn {
     width: 30% !important;
     margin-right: 0px !important;
     padding-top: 350px;
+    float: left;
 }
 
 #bob-kahn .text-box {
@@ -184,9 +170,17 @@ h5 {
     left: 20px;
 }
 
+#vint-cerf {
+    float: right;
+}
+
 #vint-cerf .text-box {
     top: -50px;
     right: 40px;
+}
+
+#tim-berner {
+    float: right;
 }
 
 #tim-berner .text-box {
