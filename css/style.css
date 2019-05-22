@@ -77,7 +77,6 @@ a {
 
 .color {
     color: #0395DE; /* Original: #0395DE; /* Original: #ffbf00 */; */
-    font-size: 11px;
 }
 
 
@@ -117,10 +116,6 @@ h5 {
     color: #393939;
     padding-top: 150px;
     padding-left: 100px;
-}
-
-.color {
-    color: #0395DE !important;
 }
 
 .header .title {
@@ -189,7 +184,7 @@ h5 {
     left: 20px;
 }
 
-#vint-serf .text-box {
+#vint-cerf .text-box {
     top: -50px;
     right: 40px;
 }
@@ -197,6 +192,27 @@ h5 {
 #tim-berner .text-box {
     left: 30px;
     top: -30px;
+}
+
+/* citations
+==================================================*/
+
+.citations {
+    background: #f5f5f5;
+}
+
+.citation-list {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.citation-list li {
+    margin: 20px;
+}
+
+.citation span {
+    font-size: 10px;
 }
 
 /* preloader
