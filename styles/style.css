@@ -167,7 +167,7 @@ h5 {
 }
 
 .image-card img {
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .image-card b {
@@ -179,13 +179,14 @@ h5 {
 }
 
 .image-card .text-box {
-    border-radius: 5px;
+    border-radius: 10px;
     width: 500px;
     height: auto;
     position: absolute;
     background: #fff;
-    padding-left: 20px;
-    padding-left: 20px;
+    padding: 20px;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
 }
 
 #bob-kahn {
