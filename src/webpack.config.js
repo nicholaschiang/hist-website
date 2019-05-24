@@ -27,7 +27,7 @@ module.exports = [{
         output: {
             // This is necessary for webpack to compile, but we never reference this js file.
             filename: 'timeline-style.js',
-            path: path.resolve(__dirname, '../build/styles'),
+            path: path.resolve(__dirname, '../styles'),
         },
         module: {
             rules: [{
@@ -40,7 +40,7 @@ module.exports = [{
         entry: path.resolve(__dirname, 'timeline/index.js'),
         output: {
             filename: 'timeline.js',
-            path: path.resolve(__dirname, '../build/scripts'),
+            path: path.resolve(__dirname, '../scripts'),
         },
         module: {
             rules: [{

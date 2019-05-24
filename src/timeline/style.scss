@@ -129,24 +129,25 @@ $primary: #0395DE;
   position: absolute;
   top: 0;
   left: 50%;
-  width: 62px;
-  height: 62px;
-  margin-left: -31px;
+  width: 80px;
+  height: 80px;
+  margin-left: -40px;
   color: #fff;
   border-radius: 100%;
   background: $primary !important;
 }
 
-.timeline-article .meta-date .date,
-.timeline-article .meta-date .month {
+.timeline-article .meta-date .month,
+.timeline-article .meta-date .year {
   display: block;
   text-align: center;
   font-weight: 900;
 }
 
-.timeline-article .meta-date .date {
+.timeline-article .meta-date .year {
   font-size: 30px;
   line-height: 40px;
+  margin-top: 15px;
 }
 
 .timeline-article .meta-date .month {

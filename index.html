@@ -70,7 +70,7 @@
                 <li><a href="/index.html">Intro</a> <i class="ion-ios-circle-filled color"></i> </li>
                 <li><a href="#creators">Creators</a></li>
                 <li><a href="#evolution">Evolution</a></li>
-                <li><a href="#curroption">Curroption</a></li>
+                <li><a href="#corruption">Corruption</a></li>
                 <li><a href="#further-reading">References</a></li>
 
                 <li class="box-label">More By Me</li>
@@ -121,13 +121,13 @@
             <b class="subtitle"><br>How the <b class="color">world wide web</b> came to be.</b>
         </div>
         <div id="cards">
-            <div class="image-card" id="vint-cerf">
+            <div class="image-card js--fadeInRight" id="vint-cerf">
                 <img width="100%" src="/img/vint-cerf.jpeg">
                 <div class="text-box">
                     <h5>Vint Cerf</h5>
                     <p>Alongside Bob Kahn, Vint Cerf co-founded ISOC (the Internet
-                        Society) and worked to develop modern internet protocals including
-                        the IP/TCP protocals that your computer used to reach this site.
+                        Society) and worked to develop modern internet protocols including
+                        the IP/TCP protocols that your computer used to reach this site.
                         <br><br>Graduating from Stanford with a B.S. and later attending UCLA for his
                         M.S. and PhD, Vint Cerf is pretty much genius. While still in high school,
                         Vint worked on the Apollo program before moving on to pursue a career at
@@ -135,7 +135,7 @@
                         <a href="https://www.darpa.mil/about-us/timeline/-grand-challenge-for-autonomous-vehicles">giant robot races</a>.)</p>
                 </div>
             </div>
-            <div class="image-card" id="bob-kahn">
+            <div class="image-card js--fadeInLeft" id="bob-kahn">
                 <img width="100%" src="/img/bob-kahn.jpeg">
                 <div class="text-box">
                     <h5>Bob Kahn</h5>
@@ -143,12 +143,12 @@
                         first to demonstrate the real-world capabilities of packet-switching (the
                         system that now powers the reliability of the modern web) through his
                         development of the ARPANET for the ICCC.
-                        <br><br>After developing the IP/TCP protocals during his time at DARPA, Bob spearheaded the billion
+                        <br><br>After developing the IP/TCP protocols during his time at DARPA, Bob spearheaded the billion
                         dollar US Strategic Computing Initiative and later went on to found the CNRI (Corporation
                         for National Research Initiatives) of which he is currently CEO and president.</p>
                 </div>
             </div>
-            <div class="image-card" id="tim-berner">
+            <div class="image-card js--fadeInRight" id="tim-berner">
                 <img width="100%" src="/img/tim-berners-lee.jpeg">
                 <div class="text-box">
                     <h5><b>Tim Berners-Lee</b></h5>
@@ -156,7 +156,7 @@
                         development of the world wide web (that WWW that you see in front of modern URLs).
                         <br><br>Tim is primarily responsible for the development of modern URLs, HTML (the language
                         that built the website you're looking at right now), and HTTP (hypertext transfer
-                        protocal which sends HTML around).</p>
+                        protocol which sends HTML around).</p>
                 </div>
             </div>
         </div>
@@ -184,34 +184,84 @@
             <div class="evolution-center-line"></div>
             <div class="evolution-timeline-content">
                 <!-- Article -->
-                <div id="development-of-ip" class="timeline-article">
+                <div id="arpanet" class="timeline-article">
                     <div class="content-left-container js--fadeInLeft">
                         <div class="content-left">
-                            <h5>Design of Internet Protocal</h5>
-                            <p>With the help of government funding, Bob Khan and Vint Cerf worked to
-                                design the Internet Protocal (IP) and Transmission Control Protocal (TCP)
-                                that enable you to watch cat videos.<span class="article-number">01</span></p>
+                            <h5>US Government ARPANET</h5>
+                            <p>The founding father of internet protocol, the <a href="https://www.darpa.mil/about-us/timeline/arpanet">ARPANET</a> (the Advanced Research
+                                Projects Network) was a project funded by the US Department of Defense. <br>
+                                Building off previous work in packet switching (i.e. a reliable way to send
+                                information from one location to another), the ARPANET developed a
+                                communication network that would later become the basis for the first computer
+                                networks.<span class="article-number">01</span></p>
                         </div>
                     </div>
                     <div class="meta-date">
-                        <span class="date">18</span>
-                        <span class="month">APR</span>
+                        <span hidden class="date">30</span>
+                        <span class="year">1969</span>
+                        <span class="month">AUG</span>
+                    </div>
+                </div>
+                <!-- // Article -->
+
+                <!-- Article -->
+                <div id="development-of-ip" class="timeline-article">
+                    <div class="content-right-container js--fadeInRight">
+                        <div class="content-right">
+                            <h5>Design of Internet Protocal</h5>
+                            <p>With the help of government funding, Bob Khan and Vint Cerf designed
+                                the Internet Protocals (<a href="https://www.livinginternet.com/i/ii_tcpip.htm">IPv4</a>) and Transmission Control Protocals (<a href="https://www.livinginternet.com/i/ii_tcpip.htm">TCPv4</a>)
+                                that enable you to watch cat videos late at night. <br>Right now, we are actually in a world-wide
+                                transition from IPv4 to <a href="https://www.internetsociety.org/policybriefs/ipv6">IPv6</a>
+                                to accomodate the unprecendented growth
+                                in Internet-enabled devices. However, most of us
+                                still use IPv4 (you're probably using it right now) due to another
+                                ingenius protocol powered by <a href="https://www.lifewire.com/what-is-lan-4684071">LANs</a>.<span class="article-number">02</span></p>
+                        </div>
+                    </div>
+                    <div class="meta-date">
+                        <span hidden class="date">1</span>
+                        <span class="year">1983</span>
+                        <span class="month">JAN</span>
                     </div>
                 </div>
                 <!-- // Article -->
 
                 <!-- Article -->
                 <div id="development-of-www" class="timeline-article">
-                    <div class="content-right-container js--fadeInRight">
-                        <div class="content-right">
+                    <div class="content-left-container js--fadeInLeft">
+                        <div class="content-left">
                             <h5>Creation of the World Wide Web</h5>
-                            <p>Building off the work at DARPA, Tim Berners-Lee developed the World
-                                Wide Web<span class="article-number">02</span></p>
+                            <p>Building off of work at the US government's <a href="https://www.darpa.mil/">DARPA</a> (creators of the ARPANET), Tim Berners-Lee developed the World
+                                Wide Web: originally a small network of university computers for <a href="https://home.cern/">CERN</a> (a nuclear research
+                                initiative). He created modern HTML, HTTP, and (most importantly) the URLs that you use
+                                everyday to visit your favorite sites
+                                (like this one).<span class="article-number">03</span></p>
                         </div>
                     </div>
                     <div class="meta-date">
-                        <span class="date">18</span>
+                        <span class="year">1987</span>
                         <span class="month">APR</span>
+                    </div>
+                </div>
+                <!-- // Article -->
+
+                <!-- Article -->
+                <div id="browsers" class="timeline-article">
+                    <div class="content-right-container js--fadeInRight">
+                        <div class="content-right">
+                            <h5>The First Web Browser</h5>
+                            <p>The creation of <a href="http://www.ncsa.illinois.edu/enabling/mosaic">Mosaic</a> (the first cross-platform web browser to gain
+                                attention from "non-geeks") greatly helped spread use and knowledge
+                                of the web across the world. <br>Marc Andreessen and his team at the <a href="http://www.ncsa.illinois.edu/">NCSA</a> (the
+                                National Center for Supercomputer Applications) worked to make the
+                                Internet accessible to the average Joe through their browser's GUI (graphical user interface).<span class="article-number">04</span></p>
+                        </div>
+                    </div>
+                    <div class="meta-date">
+                        <span hidden class="date">23</span>
+                        <span class="year">1993</span>
+                        <span class="month">JAN</span>
                     </div>
                 </div>
                 <!-- // Article -->
@@ -220,34 +270,42 @@
                 <div id="consumers" class="timeline-article">
                     <div class="content-left-container js--fadeInLeft">
                         <div class="content-left">
-                            <h5>Adaptations for the Average Joe</h5>
-                            <p>When I orbited the Earth in a spaceship, I saw for the first time how beautiful our planet is. Mankind, let us preserve and increase this beauty, and not destroy it! <span class="article-number">03</span></p>
+                            <h5>The Household Web</h5>
+                            <p>After being widely adopted for academic and business purposes, the world wide web quickly made its
+                                way into the life of the average consumer. In 1995, millions of new home users obtained access to the web when
+                                the first ISPs (Compuserve, American Online, and Prodigy) began providing gateways to the Internet.
+                                <span class="article-number">05</span></p>
                         </div>
                     </div>
                     <div class="meta-date">
-                        <span class="date">18</span>
-                        <span class="month">APR</span>
+                        <span class="year">1995</span>
+                        <span class="month">JAN</span>
                     </div>
                 </div>
                 <!-- // Article -->
-
-                <!-- Article -->
-                <div id="modern" class="timeline-article">
-                    <div class="content-right-container js--fadeInRight">
-                        <div class="content-right">
-                            <h5>Then, the iPhone Happened</h5>
-                            <p>When I orbited the Earth in a spaceship, I saw for the first time how beautiful our planet is. Mankind, let us preserve and increase this beauty, and not destroy it! <span class="article-number">04</span></p>
-                        </div>
-                    </div>
-                    <div class="meta-date">
-                        <span class="date">18</span>
-                        <span class="month">APR</span>
-                    </div>
-                </div>
-                <!-- // Article -->
+                <!--
+   -
+   -                [> Article <]
+   -                <div id="modern" class="timeline-article">
+   -                    <div class="content-right-container js--fadeInRight">
+   -                        <div class="content-right">
+   -                            <h5>Then, the iPhone Happened</h5>
+   -                            <p>When I orbited the Earth in a spaceship, I saw
+   -                                for the first time how beautiful our planet is.
+   -                                Mankind, let us preserve and increase this beauty,
+   -                                and not destroy it! <span class="article-number">05</span></p>
+   -                        </div>
+   -                    </div>
+   -                    <div class="meta-date">
+   -                        <span class="date">18</span>
+   -                        <span class="month">APR</span>
+   -                    </div>
+   -                </div>
+   -                [> // Article <]
+   -->
 
             </div>
-            <div class="timeline-end">2019</div>
+            <div class="timeline-end">Now</div>
         </section>
         <!-- // Vertical Timeline -->
     </div>
@@ -258,14 +316,45 @@
 	    - ISPs
 	    - Net Neutrality
     -->
-    <div id="curroption">
+    <div id="corruption">
         <div class="header">
-            <b class="title">Curroption<b class="color">.</b><br></b>
+            <b class="title">Corruption<b class="color">.</b><br></b>
             <b class="subtitle">How the internet became a <b class="color">business.</b></b>
         </div>
         <div class="text-box js--fadeInRight">
-            <h5>Infrastructure and Reliability</h5>
-            <p>Asperiores quis aut ut molestiae. Eius provident quibusdam voluptatem molestiae vero reprehenderit. Sapiente suscipit quisquam non qui id unde ipsa. Quibusdam aspernatur architecto itaque expedita laudantium a. Ut at alias aperiam ut eveniet soluta. Voluptas qui architecto quas ut dolore minima nihil enim.</p>
+            <h5>Reliability</h5>
+            <p>When you ask for <i>www.google.com</i> from your web browser, you usually
+                (I hope) don't worry about not being able to connect. It always works (well, besides that
+                one time where you didn't have WiFi turned on). You don't <i>have</i> to think about it. And
+                you shouldn't. <br>The Internet was designed in such a way that all packets (the data
+                that gets sent between your computer and Google's servers) should make
+                their way to their destination, even if the power in Iraq is down or the IXP that you normally
+                connect to is under maintenance. But this reliability comes at a cost.
+            </p>
+        </div>
+        <!-- Answer: https://www.quora.com/Is-it-possible-to-access-the-Internet-without-an-ISP -->
+        <div class="text-box js--fadeInRight">
+            <h5>Infrastructure and Redundancy</h5>
+            <p>The Internet is sort of like any other utility. To connect, you pay your ISP (e.g. AT&T, XFinity)
+                for certain "internet speeds" every month. But the Internet is just a bunch of inter-connected
+                computers, right? Why do I need to pay to talk with other computers? Lets say you <i>really</i> didn't
+                want to pay for Internet. You would have to, in a sense, wire your computer directly to an IXP (something
+                that isn't going to happen anytime soon). It's almost like you didn't want to pay for water:</p>
+            <p>Imagine that you’re in Los Angeles, and want to take a sip of
+                the Colorado River watershed from your kitchen faucet for free,
+                without paying an existing water utility. How would you do it?
+                You’d need to construct your own ‘private line’ aqueduct from your
+                house to a tributary, and somehow avoid prosecution for siphoning
+                off a controlled resource. Otherwise, you’d need access to pumping
+                stations, valves, existing aqueducts, dams, etc. In short, you’d
+                need to become your own private water utility, whether you
+                interconnect with other existing water utilities or not.</p>
+            <p>Because people can’t see or touch IP packets, they seem to think
+                their delivery is just an abstraction. It’s not. Internet access
+                requires real physical infrastructure just like gas, water,
+                electricity, and sewage. Protocols layered on top of that
+                infrastructure still require the underlying infrastructure for
+                delivery.</p>
         </div>
         <div class="text-box js--fadeInRight">
             <h5>Internet Service Providers</h5>
@@ -323,7 +412,18 @@
                 </span>
                 <span class="description"></span>
             </li>
-            <!-- TODO: Add citation js--fadeInRight descriptions for each of these -->
+            <li class="citation js--fadeInRight">
+                <span class="mla">www.livinginternet.com
+
+                </span>
+                <span class="description"></span>
+            </li>
+            <li class="citation grey js--fadeInLeft">
+                <span class="mla">www.w3.org
+
+                </span>
+                <span class="description"></span>
+            </li>
         </ul>
     </div>
 
