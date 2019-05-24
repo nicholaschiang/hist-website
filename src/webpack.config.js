@@ -6,7 +6,8 @@ function getStyleUse(bundleFilename) {
             options: {
                 name: bundleFilename,
             },
-        }, {
+        },
+        {
             loader: 'extract-loader'
         },
         {
@@ -22,34 +23,24 @@ function getStyleUse(bundleFilename) {
 }
 
 module.exports = [{
-        entry: path.resolve(__dirname, 'styles/style.scss'),
+        entry: path.resolve(__dirname, 'timeline/style.scss'),
         output: {
             // This is necessary for webpack to compile, but we never reference this js file.
-            filename: 'style.js',
-            path: path.resolve(__dirname, '../build/'),
+            filename: 'timeline-style.js',
+            path: path.resolve(__dirname, '../build/styles'),
         },
         module: {
             rules: [{
-                    test: /\.scss$/,
-                    use: getStyleUse('style.css'),
-                },
-                {
-                    test: /\.(png|jpe?g)$/,
-                    use: [{
-                        loader: 'url-loader',
-                        options: {
-                            limit: 10000,
-                        }
-                    }],
-                }
-            ]
+                test: /\.scss$/,
+                use: getStyleUse('timeline.css'),
+            }]
         },
     },
     {
-        entry: path.resolve(__dirname, 'scripts/index.js'),
+        entry: path.resolve(__dirname, 'timeline/index.js'),
         output: {
-            filename: 'bundle.js',
-            path: path.resolve(__dirname, '../build/'),
+            filename: 'timeline.js',
+            path: path.resolve(__dirname, '../build/scripts'),
         },
         module: {
             rules: [{

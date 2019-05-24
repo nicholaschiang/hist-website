@@ -9,15 +9,18 @@
     <title>The Internet: A Brief History</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles/bootstrap.min.css" rel="stylesheet">
     <link href="ionicons/css/ionicons.min.css" rel="stylesheet">
 
     <!-- main css -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet">
+
+    <!-- minimalist timeline -->
+    <link href="styles/timeline.css" rel="stylesheet">
 
     <!-- modernizr -->
     <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
-    <script src="js/modernizr.js"></script>
+    <script src="scripts/modernizr.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -64,12 +67,13 @@
             <ul class="box-primary-nav">
                 <li class="box-label">Brief History</li>
 
-                <li><a href="resume.pdf">Intro</a> <i class="ion-ios-circle-filled color"></i> </li>
+                <li><a href="/index.html">Intro</a> <i class="ion-ios-circle-filled color"></i> </li>
                 <li><a href="#creators">Creators</a></li>
                 <li><a href="#evolution">Evolution</a></li>
-                <li><a href="#">Curroption</a></li>
+                <li><a href="#curroption">Curroption</a></li>
+                <li><a href="#further-reading">References</a></li>
 
-                <li class="box-label">Read More</li>
+                <li class="box-label">More By Me</li>
 
                 <li class="box-social"><a href="#0">
                         <ion-icon name="logo-facebook"></ion-icon>
@@ -77,11 +81,6 @@
                 <li class="box-social"><a href="#0">
                         <ion-icon name="logo-instagram"></ion-icon>
                     </a></li>
-                <!--
-                   -<li class="box-social"><a href="#0">
-                   -        <ion-icon name="logo-twitter"></ion-icon>
-                   -    </a></li>
-		   -->
                 <li class="box-social"><a href="https://github.com/nicholaschiang/">
                         <ion-icon name="logo-github"></ion-icon>
                     </a></li>
@@ -118,8 +117,8 @@
 	    who contributed and what it was originally used for. -->
     <div id="creators" class="image-timeline">
         <div class="header">
-            <b class="title letters">Creators of the <b class="color">Net</b>.</b>
-            <b class="subtitle letters"><br>How the <b class="color">world wide web</b> came to be.</b>
+            <b class="title">Creators of the <b class="color">Net</b>.</b>
+            <b class="subtitle"><br>How the <b class="color">world wide web</b> came to be.</b>
         </div>
         <div id="cards">
             <div class="image-card" id="vint-cerf">
@@ -163,6 +162,7 @@
         </div>
     </div>
 
+
     <!-- Evolution of the Internet -->
     <!-- Discuss how the internet is used today, government regulations that
 	    have developed, and the progression that it has had since it's
@@ -173,32 +173,83 @@
 	    - Integration of consumer products in the net
 	    - Modern developments and adaptations for ever-improving technology (e.g. IPv6)
     -->
-    <div id="evolution" class="sticky-paragraph">
+    <!-- Vertical Timeline -->
+    <div id="evolution">
         <div class="header">
             <b class="title">Evolution<b class="color">.</b></b>
             <b class="subtitle"><br>How we came to use the <b class="color">internet</b> everyday.</b>
         </div>
-        <ul class="placeholder">
-            <li id="development-of-ip">
-                <h5>Design of Internet Protocal</h5>
-                <p>With the help of government funding, Bob Khan and Vint Cerf worked to
-                    design the Internet Protocal (IP) and Transmission Control Protocal (TCP)
-                    that enable you to watch cat videos.</p>
-            </li>
-            <li id="development-of-www">
-                <h5>Creation of the World Wide Web</h5>
-                <p>Building off the work at DARPA, Tim Berners-Lee developed the World
-                    Wide Web</p>
-            </li>
-            <li id="consumers">
-                <h5>Adaptations for the Average Joe</h5>
-                <p></p>
-            </li>
-            <li id="modern">
-                <h5>Then, the iPhone Happened</h5>
-                <p></p>
-            </li>
-        </ul>
+        <section id="evolution-timeline">
+            <div class="timeline-start">1960</div>
+            <div class="evolution-center-line"></div>
+            <div class="evolution-timeline-content">
+                <!-- Article -->
+                <div id="development-of-ip" class="timeline-article">
+                    <div class="content-left-container js--fadeInLeft">
+                        <div class="content-left">
+                            <h5>Design of Internet Protocal</h5>
+                            <p>With the help of government funding, Bob Khan and Vint Cerf worked to
+                                design the Internet Protocal (IP) and Transmission Control Protocal (TCP)
+                                that enable you to watch cat videos.<span class="article-number">01</span></p>
+                        </div>
+                    </div>
+                    <div class="meta-date">
+                        <span class="date">18</span>
+                        <span class="month">APR</span>
+                    </div>
+                </div>
+                <!-- // Article -->
+
+                <!-- Article -->
+                <div id="development-of-www" class="timeline-article">
+                    <div class="content-right-container js--fadeInRight">
+                        <div class="content-right">
+                            <h5>Creation of the World Wide Web</h5>
+                            <p>Building off the work at DARPA, Tim Berners-Lee developed the World
+                                Wide Web<span class="article-number">02</span></p>
+                        </div>
+                    </div>
+                    <div class="meta-date">
+                        <span class="date">18</span>
+                        <span class="month">APR</span>
+                    </div>
+                </div>
+                <!-- // Article -->
+
+                <!-- Article -->
+                <div id="consumers" class="timeline-article">
+                    <div class="content-left-container js--fadeInLeft">
+                        <div class="content-left">
+                            <h5>Adaptations for the Average Joe</h5>
+                            <p>When I orbited the Earth in a spaceship, I saw for the first time how beautiful our planet is. Mankind, let us preserve and increase this beauty, and not destroy it! <span class="article-number">03</span></p>
+                        </div>
+                    </div>
+                    <div class="meta-date">
+                        <span class="date">18</span>
+                        <span class="month">APR</span>
+                    </div>
+                </div>
+                <!-- // Article -->
+
+                <!-- Article -->
+                <div id="modern" class="timeline-article">
+                    <div class="content-right-container js--fadeInRight">
+                        <div class="content-right">
+                            <h5>Then, the iPhone Happened</h5>
+                            <p>When I orbited the Earth in a spaceship, I saw for the first time how beautiful our planet is. Mankind, let us preserve and increase this beauty, and not destroy it! <span class="article-number">04</span></p>
+                        </div>
+                    </div>
+                    <div class="meta-date">
+                        <span class="date">18</span>
+                        <span class="month">APR</span>
+                    </div>
+                </div>
+                <!-- // Article -->
+
+            </div>
+            <div class="timeline-end">2019</div>
+        </section>
+        <!-- // Vertical Timeline -->
     </div>
 
     <!-- Corruption of the Web -->
@@ -207,88 +258,74 @@
 	    - ISPs
 	    - Net Neutrality
     -->
-    <section id="curroption">
+    <div id="curroption">
         <div class="header">
-            <b class="title">Curroption<b class="color">.</b></b>
+            <b class="title">Curroption<b class="color">.</b><br></b>
             <b class="subtitle">How the internet became a <b class="color">business.</b></b>
         </div>
-        <ul class="placeholder">
-            <li id="infrastructure">
-                <h5>Design of Internet Protocal</h5>
-                <p></p>
-            </li>
-            <li id="isps">
-                <h5>Design of Internet Protocal</h5>
-                <p></p>
-            </li>
-            <li id="neutrality">
-                <h5>Design of Internet Protocal</h5>
-                <p></p>
-            </li>
-        </ul>
-    </section>
-
-    <!-- Call to Action ("Save the Net" or something less cheasy) -->
-    <!-- Include a brief description of government issues with the WWW and how the ordinary
-	    citizen can help maintain a free web. Perhaps include a text box and nice, huge
-	    button to enable the user to electronically "sign" some important (existing) petition.
-    -->
-    <section id="call-to-action">
-        <div class="header">
-            <b class="title">Save the Net<b class="color">.</b></b>
-            <b class="subtitle">What you can do to maintain a <b class="color">free</b> web.</b>
+        <div class="text-box js--fadeInRight">
+            <h5>Infrastructure and Reliability</h5>
+            <p>Asperiores quis aut ut molestiae. Eius provident quibusdam voluptatem molestiae vero reprehenderit. Sapiente suscipit quisquam non qui id unde ipsa. Quibusdam aspernatur architecto itaque expedita laudantium a. Ut at alias aperiam ut eveniet soluta. Voluptas qui architecto quas ut dolore minima nihil enim.</p>
         </div>
-    </section>
+        <div class="text-box js--fadeInRight">
+            <h5>Internet Service Providers</h5>
+            <p>Asperiores quis aut ut molestiae. Eius provident quibusdam voluptatem molestiae vero reprehenderit. Sapiente suscipit quisquam non qui id unde ipsa. Quibusdam aspernatur architecto itaque expedita laudantium a. Ut at alias aperiam ut eveniet soluta. Voluptas qui architecto quas ut dolore minima nihil enim.</p>
+        </div>
+        <div class="text-box js--fadeInRight">
+            <h5>Net Neutrality</h5>
+            <p>Asperiores quis aut ut molestiae. Eius provident quibusdam voluptatem molestiae vero reprehenderit. Sapiente suscipit quisquam non qui id unde ipsa. Quibusdam aspernatur architecto itaque expedita laudantium a. Ut at alias aperiam ut eveniet soluta. Voluptas qui architecto quas ut dolore minima nihil enim.</p>
+        </div>
+    </div>
 
     <!-- Bibliography and Citation Descriptions -->
-    <section id="further-reading" class="citations">
+    <div id="further-reading" class="citations">
         <div class="header">
-            <b class="title">Further Reading<b class="color">.</b></b>
-            <b class="subtitle">Bibliography and citation descriptions<b class="color">.</b></b>
+            <b class="title">Further Reading<b class="color">.</b><br></b>
+            <b class="subtitle">Bibliography and other <b class="color">interesting sources</b> worth reading.</b>
         </div>
         <ul class="citations-list">
-            <li class="citation">
+            <li class="citation grey js--fadeInLeft">
                 <span class="mla">"Tim Berners-Lee." World History: The Modern Era, ABC-CLIO, 2019, worldhistory.abc-clio.com/Search/Display/302235. Accessed 22 May 2019.
                 </span>
                 <span class="description"></span>
             </li>
-            <li class="citation">
+            <li class="citation js--fadeInRight">
                 <span class="mla">"World Wide Web." World History: The Modern Era, ABC-CLIO, 2019, worldhistory.abc-clio.com/Search/Display/311297. Accessed 22 May 2019.
                 </span>
                 <span class="description"></span>
             </li>
-            <li class="citation">
+            <li class="citation grey js--fadeInLeft">
                 <span class="mla">Francisco, John A. "Internet." World History: The Modern Era, ABC-CLIO, 2019, worldhistory.abc-clio.com/Search/Display/2197292. Accessed 22 May 2019.
                 </span>
                 <span class="description"></span>
             </li>
-            <li class="citation">
+            <li class="citation js--fadeInRight">
                 <span class="mla">Shah, Dhavan V., et al. "Information and expression in a digital age: Modeling Internet effects on civic participation." Communication research 32.5 (2005): 531-565.
 
                 </span>
                 <span class="description"></span>
             </li>
-            <li class="citation">
+            <li class="citation grey js--fadeInLeft">
                 <span class="mla">Baker, Laurence, et al. "Use of the Internet and e-mail for health care information: results from a national survey." Jama 289.18 (2003): 2400-2406.
 
                 </span>
                 <span class="description"></span>
             </li>
-            <li class="citation">
+            <li class="citation js--fadeInRight">
                 <span class="mla">Tolbert, Caroline J., and Ramona S. McNeal. "Unraveling the effects of the Internet on political participation?." Political research quarterly 56.2 (2003): 175-185.
 
                 </span>
                 <span class="description"></span>
             </li>
-            <li class="citation">
+            <li class="citation grey js--fadeInLeft">
                 <span class="mla">Bimber, Bruce. "Information and political engagement in America: The search for effects of information technology at the individual level." Political Research Quarterly 54.1 (2001): 53-67.
 
                 </span>
                 <span class="description"></span>
             </li>
-            <!-- TODO: Add citation descriptions for each of these -->
+            <!-- TODO: Add citation js--fadeInRight descriptions for each of these -->
         </ul>
-    </section>
+    </div>
 
     <!-- footer -->
     <footer>
@@ -308,17 +345,17 @@
 
 
     <!-- jQuery -->
-    <script src="js/jquery-2.1.1.js"></script>
+    <script src="scripts/jquery-2.1.1.js"></script>
     <!--  plugins -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/menu.js"></script>
-    <script src="js/animated-headline.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/animated-headline.js"></script>
+    <script src="scripts/isotope.pkgd.min.js"></script>
 
 
-    <!--  custom script -->
-    <script src="js/custom.js"></script>
-
+    <!--  custom scripts -->
+    <script src="scripts/custom.js"></script>
+    <script src="scripts/timeline.js"></script>
 </body>
 
 </html>

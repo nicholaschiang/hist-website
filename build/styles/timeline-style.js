@@ -67,7 +67,7 @@
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "style.css";
+module.exports = __webpack_require__.p + "timeline.css";
 
 /***/ })
 /******/ ]);
