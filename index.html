@@ -73,13 +73,10 @@
                 <li><a href="#corruption">Corruption</a></li>
                 <li><a href="#further-reading">References</a></li>
 
-                <li class="box-label">More By Me</li>
+                <li class="box-label">Made By Me</li>
 
-                <li class="box-social"><a href="#0">
-                        <ion-icon name="logo-facebook"></ion-icon>
-                    </a></li>
-                <li class="box-social"><a href="#0">
-                        <ion-icon name="logo-instagram"></ion-icon>
+                <li class="box-social"><a href="https://nicholaschiang.com">
+                        <ion-icon name="globe"></ion-icon>
                     </a></li>
                 <li class="box-social"><a href="https://github.com/nicholaschiang/">
                         <ion-icon name="logo-github"></ion-icon>
@@ -321,48 +318,72 @@
             <b class="title">Corruption<b class="color">.</b><br></b>
             <b class="subtitle">How the internet became a <b class="color">business.</b></b>
         </div>
-        <div class="text-box js--fadeInRight">
-            <h5>Reliability</h5>
-            <p>When you ask for <i>www.google.com</i> from your web browser, you usually
-                (I hope) don't worry about not being able to connect. It always works (well, besides that
-                one time where you didn't have WiFi turned on). You don't <i>have</i> to think about it. And
-                you shouldn't. <br>The Internet was designed in such a way that all packets (the data
-                that gets sent between your computer and Google's servers) should make
-                their way to their destination, even if the power in Iraq is down or the IXP that you normally
-                connect to is under maintenance. But this reliability comes at a cost.
-            </p>
-        </div>
-        <!-- Answer: https://www.quora.com/Is-it-possible-to-access-the-Internet-without-an-ISP -->
-        <div class="text-box js--fadeInRight">
-            <h5>Infrastructure and Redundancy</h5>
-            <p>The Internet is sort of like any other utility. To connect, you pay your ISP (e.g. AT&T, XFinity)
-                for certain "internet speeds" every month. But the Internet is just a bunch of inter-connected
-                computers, right? Why do I need to pay to talk with other computers? Lets say you <i>really</i> didn't
-                want to pay for Internet. You would have to, in a sense, wire your computer directly to an IXP (something
-                that isn't going to happen anytime soon). It's almost like you didn't want to pay for water:</p>
-            <p>Imagine that you’re in Los Angeles, and want to take a sip of
-                the Colorado River watershed from your kitchen faucet for free,
-                without paying an existing water utility. How would you do it?
-                You’d need to construct your own ‘private line’ aqueduct from your
-                house to a tributary, and somehow avoid prosecution for siphoning
-                off a controlled resource. Otherwise, you’d need access to pumping
-                stations, valves, existing aqueducts, dams, etc. In short, you’d
-                need to become your own private water utility, whether you
-                interconnect with other existing water utilities or not.</p>
-            <p>Because people can’t see or touch IP packets, they seem to think
-                their delivery is just an abstraction. It’s not. Internet access
-                requires real physical infrastructure just like gas, water,
-                electricity, and sewage. Protocols layered on top of that
-                infrastructure still require the underlying infrastructure for
-                delivery.</p>
-        </div>
-        <div class="text-box js--fadeInRight">
-            <h5>Internet Service Providers</h5>
-            <p>Asperiores quis aut ut molestiae. Eius provident quibusdam voluptatem molestiae vero reprehenderit. Sapiente suscipit quisquam non qui id unde ipsa. Quibusdam aspernatur architecto itaque expedita laudantium a. Ut at alias aperiam ut eveniet soluta. Voluptas qui architecto quas ut dolore minima nihil enim.</p>
-        </div>
-        <div class="text-box js--fadeInRight">
-            <h5>Net Neutrality</h5>
-            <p>Asperiores quis aut ut molestiae. Eius provident quibusdam voluptatem molestiae vero reprehenderit. Sapiente suscipit quisquam non qui id unde ipsa. Quibusdam aspernatur architecto itaque expedita laudantium a. Ut at alias aperiam ut eveniet soluta. Voluptas qui architecto quas ut dolore minima nihil enim.</p>
+        <div class="content">
+            <div class="right-container">
+                <div class="text-box js--fadeInRight">
+                    <h5>Reliability and Redundancy</h5>
+                    <p>When you ask for <a href="google.com">www.google.com</a> from your web browser, you usually
+                        (I hope) don't worry about not being able to connect. It always works (well, besides that
+                        one time where you didn't have WiFi turned on). You don't have to think about it. And
+                        you shouldn't.</p>
+                    <p>The Internet was designed in such a way that all packets (the data
+                        that gets sent between your computer and Google's servers) should make
+                        their way to their destination, even if the power in Iraq is down or the IXP that you normally
+                        connect to is under maintenance.</p>
+                    <p>TCP (Transmission Control Protocol) routes packets
+                        systematically through the quickest avaliable routes, instead of using preset routes that could
+                        become compromised. Thus, the more routers/pathways that are added to the system, the more
+                        reliable the Internet becomes. But this reliability comes at a cost.
+                    </p>
+                </div>
+                <!-- Answer: https://www.quora.com/Is-it-possible-to-access-the-Internet-without-an-ISP -->
+                <div class="text-box js--fadeInRight">
+                    <h5>Internet Service Providers</h5>
+                    <p>Imagine that you’re in Los Angeles, and want to take a sip of
+                        the Colorado River watershed from your kitchen faucet for free,
+                        without paying an existing water utility. How would you do it?
+                        You’d need to construct your own ‘private line’ aqueduct from your
+                        house to a tributary, and somehow avoid prosecution for siphoning
+                        off a controlled resource. Otherwise, you’d need access to pumping
+                        stations, valves, existing aqueducts, dams, etc. In short, you’d
+                        need to become your own private water utility, whether you
+                        interconnect with other existing water utilities or not.</p>
+                    <p>Because people can’t see or touch IP packets, they seem to think
+                        their delivery is just an abstraction. It’s not. Internet access
+                        requires real physical infrastructure just like gas, water,
+                        electricity, and sewage. Protocols layered on top of that
+                        infrastructure still require the underlying infrastructure for
+                        delivery.</p>
+                    <p>Internet service providers maintain and upgrade that infrastructure,
+                        ensuring that you'll always be able to access <a href="google.com">www.google.com</a>
+                        in a timely manner.</p>
+                </div>
+            </div>
+            <div class="left-container">
+                <div class="text-box js--fadeInLeft">
+                    <h5>Infrastructure and Utility</h5>
+                    <p>The Internet is sort of like any other utility. To connect, you pay your ISP (e.g. AT&T, XFinity)
+                        for certain "internet speeds" every month. But the Internet is just a bunch of inter-connected
+                        computers, right? Why do I need to pay to talk with other computers? Lets say you <i>really</i> didn't
+                        want to pay for Internet. You would have to, in a sense, wire your computer directly to an IXP (something
+                        that isn't going to happen anytime soon). It's almost like you didn't want to pay for water.</p>
+                </div>
+                <div class="text-box js--fadeInLeft">
+                    <h5>Net Neutrality</h5>
+                    <p>But ISPs, like any other business, have to make money. And while they
+                        definitely do take their cut from your utility bills, they are being
+                        paid for much more. Whenever you try to reference a URL or site that
+                        doesn't point anymore, ISPs jump in and use that oppurtunity to show
+                        you "related content". Content that they are paid to show you.
+                    </p>
+                    <p>Recently, there have been actions regarding "net neutrality" laws.
+                        Such laws would, in theory, protect the rights of individuals on the net
+                        and ensure that no one individual or company (e.g. ISPs) has power over
+                        what can be accessed on the web.
+                    </p>
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 

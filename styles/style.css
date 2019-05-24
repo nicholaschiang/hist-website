@@ -116,7 +116,7 @@ h5 {
     background-repeat: no-repeat;
     background-size: 68%;
     background-position: top left;
-    min-height: 1000px;
+    min-height: 1150px;
 }
 
 #corruption .text-box {
@@ -124,16 +124,26 @@ h5 {
     max-width: 800px;
     height: auto;
     background: #fff;
-    margin: 50px;
-    margin-top: 0px !important;
-    margin-left: 50%;
     padding: 20px;
+    margin-bottom: 50px;
 }
 
-#corruption .text-box:last-child {
-   margin-bottom: 0px !important;
+#corruption .left-container {
+    position: absolute;
+    left: 50px;
+    margin-left: 0px !important;
+    margin-top: 190px !important;
 }
 
+#corruption .left-container .text-box {
+    max-width: 630px !important;
+}
+
+#corruption .right-container {
+    position: absolute;
+    right: 50px;
+    margin-right: 0px !important;
+}
 /* image w/ text overlays timeline
 =================================================*/
 
