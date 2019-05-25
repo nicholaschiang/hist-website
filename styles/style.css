@@ -191,8 +191,12 @@ h5 {
     margin-right: 50px;
 }
 
-.image-timeline .image-card:first-child {
-    margin-top: 10%;
+.image-timeline .col-md-6:first-child .image-card:first-child {
+    margin-top: 10% !important;
+}
+
+.image-timeline .col-md-6:last-child .image-card:last-child {
+    margin-top: -10% !important;
 }
 
 .image-card img {
