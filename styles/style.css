@@ -119,6 +119,10 @@ h5 {
     padding-bottom: 20px;
 }
 
+#corruption .md-col-6 {
+    padding: 0px !important;
+}
+
 #corruption .md-col-6:first-child {
     padding-top: 100px !important;
 }
@@ -127,7 +131,7 @@ h5 {
     border-radius: 10px;
     background: #fff;
     padding: 20px;
-    margin-left: 50px;
+    margin: 50px;
 }
 
 /* image w/ text overlays timeline
