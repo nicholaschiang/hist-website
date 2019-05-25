@@ -123,7 +123,7 @@ h5 {
     padding: 0px !important;
 }
 
-#corruption .col-md-6 .text-box:first-child {
+#corruption .col-md-6:first-child .text-box:first-child {
     margin-top: 25% !important;
 }
 
@@ -133,6 +133,7 @@ h5 {
     padding: 20px;
     margin-left: 50px;
     margin-bottom: 50px;
+    margin-right: 50px;
 }
 
 #corruption .col-md-6:last-child .text-box {
@@ -142,6 +143,7 @@ h5 {
     margin-right: 50px;
     margin-bottom: 50px;
 }
+
 /* image w/ text overlays timeline
 =================================================*/
 
@@ -164,13 +166,26 @@ h5 {
     font-size: 15px;
 }
 
+.image-timeline .col-md-6 {
+    padding 0px !important;
+}
+
 .image-timeline .text-box {
     border-radius: 10px;
     background: #fff;
-    margin: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
     padding: 20px;
     padding-top: 10px !important;
     padding-bottom: 10px !important;
+}
+
+.image-timeline .col-md-6:last-child .text-box {
+    margin-right: 20px;
+}
+
+.image-timeline .text-box:first-child {
+    margin-top: 10%;
 }
 
 .image-card {
@@ -183,10 +198,6 @@ h5 {
 
 .image-timeline .text-box b {
     color: #0395DE; /* Original: #0395DE; /* Original: #ffbf00 */; */
-}
-
-#bob-kahn {
-    padding-top: 5%;
 }
 
 /* citations
