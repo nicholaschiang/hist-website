@@ -123,8 +123,8 @@ h5 {
     padding: 0px !important;
 }
 
-#corruption .md-col-6:first-child {
-    padding-top: 100px !important;
+#corruption .md-col-6 .text-box:first-child {
+    margin-top: 100px !important;
 }
 
 #corruption .text-box {
