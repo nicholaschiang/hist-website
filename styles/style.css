@@ -149,7 +149,6 @@ h5 {
 
 .image-timeline {
     background: #f5f5f5;
-    padding-bottom: 20px;
 }
 
 .header {
@@ -192,11 +191,11 @@ h5 {
 }
 
 .image-timeline .col-md-6:first-child .image-card:first-child {
-    margin-top: 10% !important;
+    margin-top: 20% !important;
 }
 
 .image-timeline .col-md-6:last-child .image-card:last-child {
-    margin-top: -10% !important;
+    margin-top: -20% !important;
 }
 
 .image-card img {
