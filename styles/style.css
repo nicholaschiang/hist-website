@@ -121,7 +121,7 @@ h5 {
 
 #corruption .text-box {
     border-radius: 10px;
-    max-width: 800px;
+    width: 60%;
     height: auto;
     background: #fff;
     padding: 20px;
@@ -136,13 +136,14 @@ h5 {
 }
 
 #corruption .left-container .text-box {
-    max-width: 630px !important;
+    width: 30% !important;
 }
 
 #corruption .right-container {
     position: absolute;
     right: 50px;
     margin-right: 0px !important;
+    margin-top: 100px !important;
 }
 /* image w/ text overlays timeline
 =================================================*/
@@ -202,7 +203,7 @@ h5 {
 #bob-kahn {
     width: 30% !important;
     margin-right: 0px !important;
-    padding-top: 350px;
+    padding-top: 30%;
     float: left;
 }
 
