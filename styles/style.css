@@ -144,7 +144,7 @@ h5 {
     margin-bottom: 50px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 992px) { /* 992px comes from col-md-6 from bootstrap specs */
 	#corruption .col-md-6:last-child .text-box {
 	    margin-left: 50px;
 	}
@@ -190,7 +190,7 @@ h5 {
     margin-left: 50px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 992px) { /* 992px comes from col-md-6 from bootstrap specs */
 	.image-timeline .col-md-6:first-child .text-box,
 	.image-timeline .col-md-6:first-child .image-card {
 	    margin-right: 50px;
