@@ -167,13 +167,13 @@ h5 {
 }
 
 .image-timeline .col-md-6 {
-    padding 0px !important;
+    padding: 0px !important;
 }
 
 .image-timeline .text-box {
     border-radius: 10px;
     background: #fff;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     margin-left: 20px;
     padding: 20px;
     padding-top: 10px !important;
@@ -181,7 +181,7 @@ h5 {
 }
 
 .image-timeline .col-md-6:last-child .text-box {
-    margin-right: 20px;
+    margin-right: 50px;
 }
 
 .image-timeline .text-box:first-child {
@@ -190,6 +190,7 @@ h5 {
 
 .image-card {
     margin: 20px;
+    margin-left: 50px;
 }
 
 .image-card img {
