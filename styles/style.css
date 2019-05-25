@@ -159,14 +159,22 @@ h5 {
 }
 
 .image-timeline #cards {
-    height: 1350px;
+    min-height: 1350px;
     display: block;
 }
 
+.image-timeline .left-container {
+    float: left;
+    width: 50%;
+}
+
+.image-timeline .right-container {
+    float: right;
+    width: 50%;
+}
+
 .image-card {
-    width: 60% !important;
     margin: 50px;
-    position: relative;
 }
 
 .image-card img {
@@ -177,14 +185,9 @@ h5 {
     color: #0395DE; /* Original: #0395DE; /* Original: #ffbf00 */; */
 }
 
-.image-card p {
-    margin-right: 10px;
-}
-
 .image-card .text-box {
     border-radius: 10px;
-    width: 500px;
-    height: auto;
+    width: 90%;
     position: absolute;
     background: #fff;
     padding: 20px;
@@ -193,34 +196,26 @@ h5 {
 }
 
 #bob-kahn {
-    width: 30% !important;
-    margin-right: 0px !important;
     padding-top: 5%;
-    float: left;
 }
 
 #bob-kahn .text-box {
-    bottom: -200px;
-    left: 20px;
-}
-
-#vint-cerf {
-    float: right;
+    bottom: -50%;
+    left: 5%;
 }
 
 #vint-cerf .text-box {
-    top: -200px;
-    right: 20px;
+    top: -50%;
+    right: 5%;
 }
 
 #tim-berner {
-    float: right;
     margin-top: 0px !important;
 }
 
 #tim-berner .text-box {
-    left: 30px;
-    top: 30px;
+    left: 5%;
+    top: 5%;
 }
 
 /* citations
