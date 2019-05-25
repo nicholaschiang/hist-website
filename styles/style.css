@@ -119,15 +119,15 @@ h5 {
     padding-bottom: 20px;
 }
 
-#corruption .md-col-6 {
+#corruption .col-md-6 {
     padding: 0px !important;
 }
 
-#corruption .md-col-6 .text-box:first-child {
+#corruption .col-md-6 .text-box:first-child {
     margin-top: 25% !important;
 }
 
-#corruption .mdc-col-6:first-child .text-box {
+#corruption .col-md-6:first-child .text-box {
     border-radius: 10px;
     background: #fff;
     padding: 20px;
@@ -135,7 +135,7 @@ h5 {
     margin-bottom: 50px;
 }
 
-#corruption .mdc-col-6:last-child .text-box {
+#corruption .col-md-6:last-child .text-box {
     border-radius: 10px;
     background: #fff;
     padding: 20px;
