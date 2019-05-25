@@ -173,24 +173,26 @@ h5 {
 .image-timeline .text-box {
     border-radius: 10px;
     background: #fff;
-    margin-bottom: 40px;
-    margin-left: 20px;
+    margin-bottom: 50px;
+    margin-top: 20px;
     padding: 20px;
     padding-top: 10px !important;
     padding-bottom: 10px !important;
 }
 
+.image-timeline .col-md-6:first-child .text-box,
+.image-timeline .col-md-6:first-child .image-card {
+    margin-left: 50px;
+}
+
+.image-timeline .col-md-6:last-child .image-card,
 .image-timeline .col-md-6:last-child .text-box {
+    margin-left: 50px;
     margin-right: 50px;
 }
 
-.image-timeline .text-box:first-child {
+.image-timeline .image-card:first-child {
     margin-top: 10%;
-}
-
-.image-card {
-    margin: 20px;
-    margin-left: 50px;
 }
 
 .image-card img {
