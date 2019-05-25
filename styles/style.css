@@ -124,16 +124,24 @@ h5 {
 }
 
 #corruption .md-col-6 .text-box:first-child {
-    margin-top: 20% !important;
+    margin-top: 25% !important;
 }
 
-#corruption .text-box {
+#corruption .mdc-col-6:first-child .text-box {
     border-radius: 10px;
     background: #fff;
     padding: 20px;
-    margin: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
 }
 
+#corruption .mdc-col-6:last-child .text-box {
+    border-radius: 10px;
+    background: #fff;
+    padding: 20px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
 /* image w/ text overlays timeline
 =================================================*/
 
