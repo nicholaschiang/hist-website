@@ -121,30 +121,23 @@ h5 {
 
 #corruption .text-box {
     border-radius: 10px;
-    width: 60%;
-    height: auto;
+    width: 50%;
     background: #fff;
     padding: 20px;
-    margin-bottom: 50px;
+    margin: 20px;
 }
 
 #corruption .left-container {
-    position: absolute;
-    left: 50px;
-    margin-left: 0px !important;
-    margin-top: 190px !important;
-}
-
-#corruption .left-container .text-box {
-    width: 30% !important;
+    margin-top: 150px !important;
+    float: left;
+    width: 50%;
 }
 
 #corruption .right-container {
-    position: absolute;
-    right: 50px;
-    margin-right: 0px !important;
-    margin-top: 100px !important;
+    float: right;
+    width: 50%;
 }
+
 /* image w/ text overlays timeline
 =================================================*/
 
