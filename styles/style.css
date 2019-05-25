@@ -144,7 +144,7 @@ h5 {
     margin-bottom: 50px;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
 	#corruption .col-md-6:last-child .text-box {
 	    margin-left: 50px;
 	}
@@ -190,7 +190,7 @@ h5 {
     margin-left: 50px;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
 	.image-timeline .col-md-6:first-child .text-box,
 	.image-timeline .col-md-6:first-child .image-card {
 	    margin-right: 50px;
